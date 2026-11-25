@@ -1,0 +1,21 @@
+{
+  "name": "plantcare-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PlantCare AI — smart ESP32 plant monitoring, automatic watering and AI-assisted care. React + Vite frontend.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @vidyagram/web",
+    "dev:web": "npm run dev -w @vidyagram/web",
+    "build": "npm run build -w @vidyagram/web",
+    "preview": "npm run preview -w @vidyagram/web",
+    "typecheck": "npm run typecheck -w @vidyagram/web",
+    "lint": "npm run typecheck"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

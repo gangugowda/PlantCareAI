@@ -1,0 +1,17 @@
+{
+  "name": "PlantCare AI",
+  "short_name": "PlantCare",
+  "description": "Smart IoT plant monitoring, automatic watering and intelligent care.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#F5F8F3",
+  "theme_color": "#0E3D2E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

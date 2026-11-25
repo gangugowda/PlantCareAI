@@ -1,0 +1,30 @@
+PlantCare AI - prototype
+========================
+
+RUN
+---
+1. Install Node.js 20.11 or newer.
+2. Open a terminal in this folder.
+3. Run: npm install
+4. Run: npm run dev
+5. Open: http://localhost:5173
+
+PRODUCTION BUILD
+----------------
+npm run build
+npm run preview
+
+ACCOUNTS (stored locally in your browser)
+-----------------------------------------
+Demo:  demo@plantcare.ai / demo1234
+Test:  test@plantcare.ai / test1234
+
+You can also create any account from the Sign up page.
+Accounts are local demo accounts; clearing browser storage removes them.
+
+NOTES
+-----
+- This is an online web prototype with demo/simulated data.
+- No real backend, ESP32 hardware, AI API or weather API is connected.
+- Offline/PWA support is best-effort; the app is intended to run online.
+- Most UI text is English; the language switcher translates a few dashboard labels.

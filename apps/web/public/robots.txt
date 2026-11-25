@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Demo app routes are client-rendered; there is no public sitemap to submit.
